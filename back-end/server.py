@@ -1,4 +1,4 @@
-from webscraping import get
+from webscraping.index import get
 from flask import Flask, request, jsonify
 
 app = Flask('dictionary API')
